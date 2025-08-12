@@ -48,7 +48,7 @@ Add screenshots of your app here (optional)
 ⚡ Installation & Setup
 
 # Clone the repository
-git clone https://github.com/your-username/Notes_Saver.git
+git clone https://github.com/txnishq28/Notes_Saver.git
 
 # Go into the project folder
 cd Notes_Saver
