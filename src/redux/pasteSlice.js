@@ -33,7 +33,7 @@ export const pasteSlice = createSlice({
                 toast.success("Your Notes has been Updated")
             }
         },
-        resetAllPaste: (state, action) => 
+        resetAllPaste: (state,) => 
         {
             state.pastes = [];
 
@@ -48,7 +48,7 @@ export const pasteSlice = createSlice({
             const index = state.pastes.findIndex((item) =>
             item._id == pasteId);
 
-            if(item >= 0){
+            if(index >= 0){
                 state.pastes.splice(index , 1);
 
                 localStorage.setItem("pastes" , JSON.stringify(state.pastes));
